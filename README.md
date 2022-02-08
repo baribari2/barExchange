@@ -4,4 +4,6 @@
 
 This project is a simple DEX where users can swap `barTokens` for a predetermined ether conversion rate
 
+***Still have some small changes to make to the code, so if you see something commented out or not fully completed that means I am coming back to it***
+
 
