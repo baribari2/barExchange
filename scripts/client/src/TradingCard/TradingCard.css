@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+
+* {
+    font-family: 'Dongle', sans-serif;
+}
+
+.container-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-container {
+    padding: 20px;
+    /* border: 1px solid red; */
+    max-width: 300px;
+    background-color: white;
+    border-radius: 20px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.token1-input {
+    position: relative;
+    left: -150px;
+}
+
+.token2-input {
+    position: relative;
+    left: -150px;
+}
+
+.bar-price {
+    position: relative;
+    left: 431px;
+    top: -39.5px;
+    background-color: black;
+    border-style: none;
+    /* color: white; */
+    border-radius: 2px;
+    padding-top: 11px;
+    padding-bottom: 9px;
+
+}
+
+.eth-price {
+    position: relative;
+    left: 431px;
+    top: -39.5px;
+    background-color: black;
+    border-style: none;
+    /* color: white; */
+    padding-top: 11px;
+    padding-bottom: 9px;
+    border-radius: 2px;
+
+}
+
+.buy-tokens {
+    position: relative;
+    top: -65px;
+    left: -150px;
+    padding: 5px 20px;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    border-style: none;
+    transition: background-color 0.3s;
+    font-size: 20px;
+    
+}
+
+.sell-tokens {
+    position: relative;
+    top: -65px;
+    left: 150px;
+    padding: 5px 20px;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    border-style: none;
+    transition: background-color 0.3s;
+    font-size: 20px;
+
+}
+.sell-tokens:hover{
+    cursor: pointer;
+    background-color: grey;
+}
+
+.buy-tokens:hover{
+    cursor: pointer;
+    background-color: grey;
+}
+
+input {
+    font-size: 15px;
+    width: 550px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+label { 
+    position: relative;
+    left: -130px;
+    font-size: 30px;
+}

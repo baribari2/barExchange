@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+
+
+.header-container{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Dongle', sans-serif;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.header-title {
+    padding: 0px;
+    font-size: 60px;
+}
+
+h1 {
+    padding: 0px;
+}
